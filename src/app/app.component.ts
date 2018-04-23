@@ -19,6 +19,7 @@ export class AppComponent {
   }
 
   onBlueprintAdded(bluePrintData: {serverName: string, serverContent: string}) {
+    // console.log('labas vakaras')
     this.serverElements.push({
       type: 'blueprint',
       name: bluePrintData.serverName,
